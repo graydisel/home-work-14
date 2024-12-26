@@ -21,6 +21,18 @@ body {
   border: 2px solid black;
 }
 
+
+
+.accordion-item {
+  background: none;
+  border: black solid 1px;
+}
+
+.accordion-button, .accordion-button:enabled {
+  background: none;
+}
+
+
 @media (max-width: 992px) {
   .logo {
     order: 1;
@@ -28,4 +40,11 @@ body {
   .navbar {
     order: 2;
   }
+}
+
+@media  screen and (max-width: 768px) {
+ .left {
+   margin-inline: auto;
+ }
+
 }
