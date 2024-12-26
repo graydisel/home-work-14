@@ -4,9 +4,8 @@ body {
   background-size: cover;
 }
 
-.logo, .navigation, .footer {
+.logo, .navigation {
   height: 100px;
-  border: 2px solid black;
 }
 
 .logo {
@@ -14,22 +13,36 @@ body {
   background-size: contain;
 }
 
-
-
-.left, .right, .main {
-  height: calc(100vh - 200px);
-  border: 2px solid black;
-}
-
-
-
 .accordion-item {
-  background: none;
+  background: #FFFFFF71;
   border: black solid 1px;
 }
 
 .accordion-button, .accordion-button:enabled {
-  background: none;
+  background: #FFFFFF71;
+}
+
+.sign, .sign:hover, .btn-question, .btn-question:hover {
+  background-color: #198754;
+  color: white;
+}
+
+.sign:hover, .btn-question:hover {
+  border-color: #ffffff;
+}
+
+.form-column {
+  background-color: #FFFFFF71;
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.footer {
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #FFFFFF71;
 }
 
 
@@ -46,5 +59,4 @@ body {
  .left {
    margin-inline: auto;
  }
-
 }
